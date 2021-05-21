@@ -24,19 +24,19 @@ class Header extends React.Component {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color:"white"}}/>
               <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                  <Nav activeKey="/home">
+                  <Nav defaultActiveKey="MoonCaker">
                       <Nav.Item>
-                        <Nav.Link as={Link} to="/">
+                        <Nav.Link eventKey="MoonCaker" as={Link} to="/">
                             Home
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link as={Link} to="/about">
+                        <Nav.Link eventKey="about" as={Link} to="/about">
                             About us
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link as={Link} to="/timeline">
+                        <Nav.Link eventKey="timeline" as={Link} to="/timeline">
                             What's new
                         </Nav.Link>
                       </Nav.Item>

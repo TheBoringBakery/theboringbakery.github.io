@@ -38,6 +38,9 @@
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: thin;
 }
 
 .navbar-toggler {
@@ -71,6 +74,10 @@
     color: black !important;
 }
 
-.timeline-item-title {
-    color: white !important;
+.vertical-timeline-element {
+    margin: 10rem 0 !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
 }
