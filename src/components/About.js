@@ -91,8 +91,8 @@ function About () {
                   <Form.Control as="textarea" rows={10} placeholder="Description"/>
                 </Col>
            </Form.Row>
-           <Form.Row className="py-3 justify-content-start">
-                <Col sm={{offset:2}}>
+           <Form.Row className="py-3 justify-content-end">
+                <Col xs={{offset: 10}} sm={{offset: 9}}>
                    <Button className="btn-about" type="submit">
                         Submit
                    </Button>

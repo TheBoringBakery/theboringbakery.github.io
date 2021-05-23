@@ -14,7 +14,7 @@ import {
          <div className="main">
             <Container>
             <Row className="justify-content-center pb-5">
-            <h1 className="text-white py-5">The road to challenger</h1>
+            <h1 className="text-white text-center p-5">The road to challenger</h1>
             <VerticalTimeline>
               <VerticalTimelineElement
                 className="vertical-timeline-element"
