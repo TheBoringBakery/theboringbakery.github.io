@@ -6,8 +6,10 @@ import {
     Col,
     Image
  } from 'react-bootstrap';
- import Banner from './Banner.js'
 
+import Fg1 from './parallax/Fg1.js'
+import Bg1 from './parallax/Bg1.js'
+import Mid1 from './parallax/Mid1.js'
 import shen1 from "../Shen_15.jpg"
 import shen2 from "../Shen_0.jpg"
 import shen3 from "../Shen_2.jpg"
@@ -16,7 +18,6 @@ import shen3 from "../Shen_2.jpg"
 function Home () {
     return (
         <div className="main">
-        <Banner />
             <Container fluid>
                 <div className="presentation text-center text-white py-5">
                     <h1 className="my-3">MoonCaker</h1>
@@ -36,13 +37,8 @@ function Home () {
             <div className="first-content">
                     <Container fluid>
                     <Row className="align-items-center py-0">
-                        <Col sm={{span: 5, offset: 1}} className="text-center py-5">
-                            <Image
-                              src={shen1}
-                              width="1100"
-                              height="800"
-                              fluid
-                            />
+                        <Col sm={{span: 6, offset: 0}} className="py-5 justify-content-start">
+                            <Fg1 />
                         </Col>
                         <Col sm={6} className="text-center text-white p-5 align-middle">
                             <h3>Get tailored suggestions based on your best champions</h3>

@@ -4,9 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import {
     Container,
-    Row,
-    Col,
-    Image
+    Row
  } from 'react-bootstrap';
 
  function Timeline () {
