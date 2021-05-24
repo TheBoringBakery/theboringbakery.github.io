@@ -22,16 +22,15 @@ export default function Fg1() {
   }, [])
 
   return (
-      <div>
+      <div className="parent1">
       <img
         alt="test"
         src="/moon/mooncaker_bg_3d.png"
         className="parent"
         style={{
-          transform: `translateY(${offset * (0.2)}px)
-          translateX(${offset * (0)}px)`,
-                    height: '100%',
-                    width: '100%',
+          transform: `translateY(${offset * (0)}px)
+          translateX(${offset * (0.5)}px)`,
+
         }}
        />
        <img
@@ -39,10 +38,8 @@ export default function Fg1() {
          src="/moon/mooncaker_mid_3d.png"
          className="parent"
          style={{
-           transform: `translateY(${offset * (0)}px)
-           translateX(${offset * (0)}px)`,
-                     height: '100%',
-                     width: '100%',
+           transform: `translateY(${offset * (0.2)}px)
+           translateX(${offset * (0.2)}px)`,
          }}
        />
       <img
@@ -50,10 +47,8 @@ export default function Fg1() {
         src="/moon/mooncaker_fg_3d.png"
         className="parent"
         style={{
-          transform: `translateY(${offset * (0)}px)
+          transform: `translateY(${offset * (-1.1) * (-0.3)}px)
           translateX(${offset * (0)}px)`,
-                    height: '100%',
-                    width: '100%',
         }}
       />
         </div>
