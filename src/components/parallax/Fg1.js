@@ -11,7 +11,10 @@ export default function Fg1() {
 
   useEffect(() => {
     function handleScroll() {
-    if (window.pageYOffset <= 900 && window.pageYOffset > 500) setOffset(window.pageYOffset - 850)
+    if (window.innerWidth <= 600 ) {
+        if (window.pageYOffset <= 420 && window.pageYOffset > 150) setOffset(window.pageYOffset - 400)
+    }
+    else if (window.pageYOffset <= 900 && window.pageYOffset > 500) setOffset(window.pageYOffset - 850)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -23,7 +26,7 @@ export default function Fg1() {
 
   return (
       <div className="parent1">
-      <img
+      <Image
         alt="test"
         src="/moon/mooncaker_bg_3d.png"
         className="parent"
@@ -33,7 +36,7 @@ export default function Fg1() {
 
         }}
        />
-       <img
+       <Image
          alt="test"
          src="/moon/mooncaker_mid_3d.png"
          className="parent"
@@ -42,7 +45,7 @@ export default function Fg1() {
            translateX(${offset * (0.2)}px)`,
          }}
        />
-      <img
+      <Image
         alt="test"
         src="/moon/mooncaker_fg_3d.png"
         className="parent"

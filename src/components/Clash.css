@@ -82,10 +82,21 @@
 .parent1 {
     position: relative;
     top: 0;
+    height: 500px;
 }
 
 .parent {
   position: absolute;
   top: 0;
-  width: 1000px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .parent1 {
+        position: relative;
+        top: 0;
+        height: 200px;
+    }
+
 }
