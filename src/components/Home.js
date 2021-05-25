@@ -34,13 +34,13 @@ function Home () {
                     </Row>
                 </div>
             </Container>
-            <div className="first-content">
+            <div className="first-content py-5">
                     <Container fluid>
                     <Row className="align-items-center py-0">
-                        <Col sm={{span: 6, offset: 0}} className="py-5 justify-content-start">
+                        <Col xl={{span: 7, offset: 0}} className="py-5 justify-content-start">
                             <Fg1 />
                         </Col>
-                        <Col sm={6} className="text-center text-white p-5 align-middle">
+                        <Col xl={3} className="text-center text-white p-5 align-middle">
                             <h3>Get tailored suggestions based on your best champions</h3>
                         </Col>
                         </Row>

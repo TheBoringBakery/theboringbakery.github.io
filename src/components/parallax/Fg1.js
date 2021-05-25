@@ -12,9 +12,9 @@ export default function Fg1() {
   useEffect(() => {
     function handleScroll() {
     if (window.innerWidth <= 600 ) {
-        if (window.pageYOffset <= 420 && window.pageYOffset > 150) setOffset(window.pageYOffset - 400)
+        if (window.pageYOffset <= 420 && window.pageYOffset > 50) setOffset(window.pageYOffset - 400)
     }
-    else if (window.pageYOffset <= 900 && window.pageYOffset > 500) setOffset(window.pageYOffset - 850)
+    else if (window.pageYOffset <= 900 && window.pageYOffset > 250) setOffset(window.pageYOffset - 850)
     }
 
     window.addEventListener("scroll", handleScroll)
