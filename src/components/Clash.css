@@ -1,6 +1,7 @@
 /*Home*/
 .main {
     background-image: linear-gradient(#da5323, #9D3A7D);
+    overflow-x: hidden;
 }
 .boddy {
     background-color: #da5323;
@@ -82,22 +83,43 @@
 .parent1 {
     position: relative;
     top: 0;
-    height: 500px;
+    height: 1000px;
 }
 
 .parent {
   position: absolute;
   top: 0;
-  width: 100%;
+  left: -250px;
+  width: 140%;
 }
 
+.parent2 {
+    position: absolute;
+    top: 0;
+    width: 120%;
+}
+
+.spacer {
+    height: 500px;
+}
+
+.spacer1 {
+    height: 500px;
+}
 
 @media only screen and (max-width: 700px) {
 
     .parent1 {
         position: relative;
         top: 0;
-        height: 200px;
+        height: 400px;
+    }
+
+    .parent {
+      position: absolute;
+      top: 0;
+      left: -100px;
+      width: 130%;
     }
 
 }

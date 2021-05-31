@@ -7,9 +7,8 @@ import {
     Image
  } from 'react-bootstrap';
 
-import Fg1 from './parallax/Fg1.js'
-import Bg1 from './parallax/Bg1.js'
-import Mid1 from './parallax/Mid1.js'
+import Home1 from './parallax/Home1.js'
+import Home2 from './parallax/Home2.js'
 import shen1 from "../Shen_15.jpg"
 import shen2 from "../Shen_0.jpg"
 import shen3 from "../Shen_2.jpg"
@@ -34,17 +33,27 @@ function Home () {
                     </Row>
                 </div>
             </Container>
-            <div className="first-content py-5">
-                    <Container fluid>
-                    <Row className="align-items-center py-0">
-                        <Col xl={{span: 7, offset: 0}} className="py-5 justify-content-start">
-                            <Fg1 />
+            <div className="spacer"/>
+            <div className="py-5">
+                    <Row className="align-items-center">
+                        <Col xl={7}>
+                            <Home1 />
                         </Col>
-                        <Col xl={3} className="text-center text-white p-5 align-middle">
+                        <Col xl={4} className="text-center text-white p-5 align-middle">
                             <h3>Get tailored suggestions based on your best champions</h3>
                         </Col>
                         </Row>
-                    </Container>
+             </div>
+            <div className="spacer1"/>
+            <div className="py-5">
+                    <Row className="align-items-center">
+                        <Col xl={4} className="text-center text-white p-5 align-middle">
+                            <h3>Get tailored suggestions based on your best champions</h3>
+                        </Col>
+                        <Col xl={7}>
+                            <Home2 />
+                        </Col>
+                        </Row>
              </div>
              <div className="second-content">
                      <Container fluid>
