@@ -9,7 +9,7 @@ import {
     Button
  } from 'react-bootstrap';
  import shen1 from "../Shen_15.jpg"
-import Fade from 'react-reveal/Fade';
+import { Slide } from 'react-awesome-reveal';
 
 function About () {
     return (
@@ -19,7 +19,7 @@ function About () {
         <h1 className="py-5 text-center text-white">About us</h1>
         <div className="py-4"/>
         <div className="first-content">
-                <Fade left duration={2500}>
+                <Slide direction={'left'} duration={2500}>
                 <Row className="align-items-center feature2 py-3 rounded-right justify-content-end"
                 style={{marginRight: '5rem'}}>
                 <Col sm={5} className="text-left text-white py-5 align-middle">
@@ -40,11 +40,11 @@ function About () {
                         />
                     </Col>
                 </Row>
-                </Fade>
+                </Slide>
             </div>
             <div className="py-5"/>
             <div className="second-content">
-                <Fade right duration={2500}>
+                <Slide direction={'right'} duration={2500}>
                 <Row className="align-items-center feature3 py-3 rounded-left"
                     style={{marginLeft: '5rem'}}>
                     <Col sm={5} className="text-right text-white p-5 align-middle">
@@ -65,13 +65,13 @@ function About () {
                         />
                     </Col>
                 </Row>
-                </Fade>
+                </Slide>
            </div>
          </Container>
          <div className="py-5"/>
          <h2 className="py-5 text-center text-white">Contact us</h2>
          <Container>
-         <Form action="http://www.theboringbakery.com/send_suggestion" method="post">
+         <Form action="https://theboringbakery.com/send_suggestion" method="post">
             <Form.Row className="py-3 justify-content-center">
                 <Col sm={{span: 4, offset: 0}}>
                   <Form.Control placeholder="Your mail" name="email"/>
