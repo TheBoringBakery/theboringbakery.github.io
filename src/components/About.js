@@ -74,21 +74,21 @@ function About () {
          <Form action="https://theboringbakery.com/send_suggestion/" method="post">
             <Form.Row className="py-3 justify-content-center">
                 <Col sm={{span: 4, offset: 0}}>
-                  <Form.Control placeholder="Your mail" name="email"/>
+                  <Form.Control placeholder="Your mail" name="email" required/>
                 </Col>
                 <div style={{padding: '1rem'}} className="d-block d-sm-none"/>
                 <Col sm={{span:4, offset:0}}>
-                  <Form.Control placeholder="Your Name/Username" name="username"/>
+                  <Form.Control placeholder="Your Name/Username" name="username" required/>
                 </Col>
               </Form.Row>
              <Form.Row className="py-3 justify-content-center">
                  <Col sm={{span: 8, offset: 0}}>
-                   <Form.Control placeholder="The reason why you are contacting us" name="why"/>
+                   <Form.Control placeholder="The reason why you are contacting us" name="reason" required/>
                  </Col>
             </Form.Row>
             <Form.Row className="py-3 justify-content-center">
                 <Col sm={{span: 8, offset: 0}}>
-                  <Form.Control as="textarea" rows={10} placeholder="Description" name="description"/>
+                  <Form.Control as="textarea" rows={10} placeholder="Description" name="description" required/>
                 </Col>
            </Form.Row>
            <Form.Row className="py-3 justify-content-end">
