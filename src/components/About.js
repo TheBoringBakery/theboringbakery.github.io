@@ -8,7 +8,7 @@ import {
     Form,
     Button
  } from 'react-bootstrap';
- import shen1 from "../Shen_15.jpg"
+import shen1 from "../Shen_15.jpg"
 import { Slide } from 'react-awesome-reveal';
 
 function About () {
@@ -91,8 +91,8 @@ function About () {
                   <Form.Control as="textarea" rows={10} placeholder="Description" name="description" required/>
                 </Col>
            </Form.Row>
-           <Form.Row className="py-3 justify-content-end">
-                <Col xs={{offset: 10}} sm={{offset: 9}}>
+           <Form.Row className="py-3 justify-content-center">
+                <Col sm={{span: 1, offset: 0}} xs={{span: 3, offset: 0}}>
                    <Button className="btn-about" type="submit">
                         Submit
                    </Button>

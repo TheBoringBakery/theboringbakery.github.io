@@ -9,7 +9,7 @@ import {
 
 import Home1 from './parallax/Home1.js'
 import Home2 from './parallax/Home2.js'
-import shen1 from "../Shen_15.jpg"
+
 import shen2 from "../Shen_0.jpg"
 import shen3 from "../Shen_2.jpg"
 
