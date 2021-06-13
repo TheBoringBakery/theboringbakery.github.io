@@ -71,7 +71,7 @@ function About () {
          <div className="py-5"/>
          <h2 className="py-5 text-center text-white">Contact us</h2>
          <Container>
-         <Form action="https://theboringbakery.com/send_suggestion" method="post">
+         <Form action="https://theboringbakery.com/send_suggestion/" method="post">
             <Form.Row className="py-3 justify-content-center">
                 <Col sm={{span: 4, offset: 0}}>
                   <Form.Control placeholder="Your mail" name="email"/>
