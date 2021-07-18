@@ -28,30 +28,30 @@ export default function Home1() {
       <div className="parent1">
       <Image
         alt="test"
-        src="/moon/mooncaker_bg_3d.png"
+        src="/moon/left_bg.png"
         className="parent"
         style={{
           transform: `translateY(${offset * (0)}px)
-          translateX(${offset * (0.5)}px)`,
+          translateX(${offset * (0)}px)`,
 
         }}
        />
        <Image
          alt="test"
-         src="/moon/mooncaker_mid_3d.png"
+         src="/moon/left_mid.png"
          className="parent"
          style={{
-           transform: `translateY(${offset * (0.35)}px)
+           transform: `translateY(${offset * (0.2)}px)
            translateX(${offset * (0)}px)`,
          }}
        />
       <Image
         alt="test"
-        src="/moon/mooncaker_fg_3d.png"
+        src="/moon/left_top.png"
         className="parent"
         style={{
-          transform: `translateY(${offset * (-0.8) * (-0.6)}px)
-          translateX(${offset * (-0.2)}px)`,
+          transform: `translateY(${offset * (-0.6) * (-0.6)}px)
+          translateX(${offset * (0)}px)`,
         }}
       />
         </div>

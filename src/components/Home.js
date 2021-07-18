@@ -39,7 +39,7 @@ function Home () {
                         <Col xl={7}>
                             <Home1 />
                         </Col>
-                        <Col xl={4} className="text-center text-white p-5 align-middle">
+                        <Col xl={4} className="text-center text-white align-middle">
                             <h3>Get tailored suggestions based on your best champions</h3>
                         </Col>
                         </Row>

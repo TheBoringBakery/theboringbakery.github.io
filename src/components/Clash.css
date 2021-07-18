@@ -89,7 +89,7 @@
 .parent {
   position: absolute;
   top: 0;
-  left: -250px;
+  left: 0px;
   width: 140%;
 }
 
@@ -122,8 +122,8 @@
     .parent {
       position: absolute;
       top: 0;
-      left: -100px;
-      width: 130%;
+      left: -780px;
+      width: 280%;
     }
 
 }
